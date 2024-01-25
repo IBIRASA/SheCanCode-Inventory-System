@@ -15,7 +15,7 @@ const Chartt = () => {
  
   const options = {
     cutout: '75%', 
-    text: 'All items', 
+    text: '5-Pending', 
     textPosition: 'center',
     textt: '40-Approved',
     texttt: '5-Removed',
