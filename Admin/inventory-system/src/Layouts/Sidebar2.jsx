@@ -14,16 +14,16 @@ const Sidebar2 = () => {
 
   return (
     <div className='menu md:w-52 lg:w-52 px-7'>
-      <div className='logo delay-[300ms] duration-[600ms] mt-8' data-aos="fade-up">
-        <img src={Logo} className=' logo-icon  shadow-2xl shadow-black-500/40' alt='Logo' />
+       <Link to='/' ><div className='logo delay-[300ms] duration-[600ms] mt-8' data-aos="fade-up">
+     <img src={Logo} className=' logo-icon  shadow-2xl shadow-black-500/40' alt='Logo' />
         <h1 className='text-white font-semibold text-xl'>SheCan<span className='text-blue-700'>Code</span></h1>
   
-      </div>
+      </div></Link>
      
       <div className='menu--list'>
         <Link to='/Home' className='item active delay-[100ms] duration-[600ms]' data-aos="fade-down">
           <FontAwesomeIcon icon={faHome} size="" className=' icon' />
-          Home
+          Dashboard
         </Link>
         <Link to='/User' className='item delay-[300ms] duration-[600ms]' data-aos="fade-down">
           <FontAwesomeIcon icon={faUsers} size="" className=' icon' />
