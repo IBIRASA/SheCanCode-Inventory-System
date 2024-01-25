@@ -23,7 +23,8 @@ function Request() {
         <div className='dashboard-content shadow-2xl'>
     <div className='w-full'>    
     <Contents/>
-    <button className='btn-user mt-14 delay-[300ms] duration-[600ms] text-sm  mr-32 mb-20' data-aos="fade-down" >Send a request</button>
+    <button className='btn-user mt-14 delay-[300ms] duration-[600ms] text-sm  mr-20 mb-20 bg-blue-900' data-aos="fade-down" >Send a request</button>
+    <button className='btn-user mt-14 delay-[300ms] duration-[600ms] text-sm  mr-8 mb-20 bg-blue-900' data-aos="fade-down"  onClick={openModal}>Add a request</button>
     <table className='finance-table mt-24'>
         
         <thead>
