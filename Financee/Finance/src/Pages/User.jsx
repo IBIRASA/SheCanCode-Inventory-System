@@ -135,8 +135,6 @@ function User() {
         <button className='home-button mb-6 bg-blue-900 text-white rounded-full px-8 py-3 font-bold hover:bg-blue-700 hover:text-white transition duration-300' data-aos="fade-down">
           Add new user
         </button>
-  
-  
     </form>
                       </p>
                     </div>
