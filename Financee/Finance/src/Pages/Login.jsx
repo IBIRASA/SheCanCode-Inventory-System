@@ -40,7 +40,7 @@ const Login = () =>{
         </button>
       </Link>
       <p className='text-white mb-6'>
-        Not Registered Yet? <Link to="/register" className='text-blue-300 hover:underline'>Create a new account</Link>
+       Forgot your password? <Link to="/reset" className='text-blue-300 hover:underline'>Reset your password</Link>
       </p>
     </form>
   </div>

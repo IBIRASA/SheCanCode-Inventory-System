@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import Login from './Pages/Login.jsx'
-import Register from './Pages/Register.jsx'
+import Reset from './Pages/Reset.jsx'
 import Request from './Pages/Request.jsx'
 import Reportt from './Pages/Reportt.jsx'
 import Account from './Pages/Account.jsx'
@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
        <Routes>
           <Route path="/" element={<App/>}/>
           <Route path="/Login" element={<Login/>}/>
-          <Route path="/register" element={<Register/>}/>  
+          <Route path="/reset" element={<Reset/>}/>  
           <Route path="/Home" element={<Dashboard/>}/>
           <Route path="/Request" element={<Request/>}/>
           <Route path="/Report" element={<Reportt/>}/>
