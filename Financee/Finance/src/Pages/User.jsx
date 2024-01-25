@@ -128,7 +128,7 @@ function User() {
         className="input-field mb-6 p-3 rounded-md w-full focus:outline-none focus:ring-2 focus:ring-blue-300 transition duration-300"
         id="password"
         type="password"
-        placeholder="Position"
+        placeholder="Role"
         data-aos="fade-down"
       />
    
